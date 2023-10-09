@@ -64,11 +64,11 @@ public static class StarCalculator
     public static string GetStarNameByParallax(double parallax)
     {
         var stars = new Star[5];
-        stars[0] = new Star("Achernar(α Eridani)", 0.02339, 42.75);
-        stars[1] = new Star("Arcturus(α Boötis)", 0.08883, 11.26);
-        stars[2] = new Star("Rigil(β Orionis)", 0.00378, 264.55);
-        stars[3] = new Star("Vega (α Lyrae)", 0.13023, 7.68);
-        stars[4] = new Star("Proxima Centauri(α Centauri C)", 0.7716, 1.30);
+        stars[0] = new Star("Achernar(alpha Eridani)", 0.02339, 42.75);
+        stars[1] = new Star("Arcturus(alpha Boötis)", 0.08883, 11.26);
+        stars[2] = new Star("Rigil(beta Orionis)", 0.00378, 264.55);
+        stars[3] = new Star("Vega (alpha Lyrae)", 0.13023, 7.68);
+        stars[4] = new Star("Proxima Centauri(alpha Centauri C)", 0.7716, 1.30);
 
         foreach (var st in stars)
         {
