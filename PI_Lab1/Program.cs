@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-public class Programme
+public class Program
 {
     public static void Main()
     {
@@ -8,7 +8,7 @@ public class Programme
         var dis = StarCalculator.GetDistanceInParsecs(0.08883);
         var parallax = StarCalculator.GetParallaxInArcsec(dis);
 
-        Console.WriteLine(parallax);
+        Console.WriteLine($"parallax = {parallax}");
 
 
     /*    Console.WriteLine(String.Format("\n{0:F3}", distance));
